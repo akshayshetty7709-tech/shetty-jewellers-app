@@ -4,9 +4,9 @@ namespace: bssons
 resources:
   - ../../base
 images:
-  - name: ghcr.io/OWNER/REPO-backend
-    newName: ghcr.io/OWNER/REPO-backend
-    newTag: latest
-  - name: ghcr.io/OWNER/REPO-frontend
-    newName: ghcr.io/OWNER/REPO-frontend
-    newTag: latest
+  - name: ghcr.io/akshayshetty7709-tech/shetty-jewellers-app-backend
+    newName: ghcr.io/akshayshetty7709-tech/shetty-jewellers-app-backend
+    newTag: 590c3b09916e99e316855cb4f0213436835bb99b
+  - name: ghcr.io/akshayshetty7709-tech/shetty-jewellers-app-frontend
+    newName: ghcr.io/akshayshetty7709-tech/shetty-jewellers-app-frontend
+    newTag: 590c3b09916e99e316855cb4f0213436835bb99b
