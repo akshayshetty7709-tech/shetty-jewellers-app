@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Add an instrumented application endpoint when you install a Prometheus
+  # client library in the Express API, then expose /metrics and add its target.
